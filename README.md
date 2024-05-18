@@ -1,6 +1,6 @@
 # Brainwave AI Landing Page 🤖🧑‍💻
 
-This is Mega-Mon 🔥, which is Brainwave Landing Page
+This is Mega-Mon 🔥, which is Brainwave AI Landing Page
 A front-end project, made with a modern tech design and cool UI.
 
 ## 🎯 Tech tools used here are 
@@ -51,7 +51,7 @@ Visit the Official docs to configure Tailwind 👉[Tailwind using Vite](https://
 
 ![image](https://github.com/Thoufiq-Uchiha-23/Brainwave-Landing-Page/assets/143873191/d3926c95-9ded-47cc-9b4f-4f46c78b0bad)
 
-## Collaboration
+## ⚡ Collaboration
 
 ![Screenshot (359)](https://github.com/Thoufiq-Uchiha-23/Brainwave-Landing-Page/assets/143873191/10eea78c-c9d5-49bd-892d-0b2779722b41)
 
