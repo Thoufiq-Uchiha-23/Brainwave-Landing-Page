@@ -6,6 +6,14 @@ import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
+// Firebase
+import { app } from "../firebase";
+// import { useState, useEffect } from "react";
+// import Signup from "./pages/Signup";
+// import SigninPage from "./pages/Signin";
+import { signOut, getAuth } from "firebase/auth";
+
+const auth = getAuth(app);
 
 const Header = () => {
   const pathname = useLocation();
@@ -71,10 +79,14 @@ const Header = () => {
           New Account
         </a>
 
-        <Button className="hidden lg:flex" href="#login">
+        {/* <Button className="hidden lg:flex" href="#login">
           Sign in
+        </Button> */}
+        <Button className="hidden lg:flex" href="#logout">
+          <button onClick={() => signOut(auth)} className="font-code uppercase">
+            Logout
+          </button>
         </Button>
-
         <Button
           className="ml-auto lg:hidden"
           px="px-3"
