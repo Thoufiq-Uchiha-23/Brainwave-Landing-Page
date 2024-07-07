@@ -33,14 +33,14 @@ const App = () => {
     });
   }, []);
 
-  if (user === null) {
-    return (
-      <div className="App">
-        <Signup />
-        {/* <SigninPage /> */}
-      </div>
-    );
-  }
+  // if (user === null) {
+  //   return (
+  //     <div className="App">
+  //       <Signup />
+  //       {/* <SigninPage /> */}
+  //     </div>
+  //   );
+  // }
 
   return (
     <>
